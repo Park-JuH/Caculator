@@ -14,6 +14,7 @@ pipeline {
           stage("Unit test") {
                steps {
                     sh "./gradlew test"
+                    echo "202135772 박주혁"
                }
           }
      }
