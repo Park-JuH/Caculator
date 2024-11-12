@@ -23,5 +23,6 @@ public class CalculatorTest {
     @Test
     public void testDiv() {
         assertEquals(6, calculator.div(12, 2));
+        System.out.println("202135772 박주혁");
     }
 }
